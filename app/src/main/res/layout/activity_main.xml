@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="請輸入一些東西"/>
+
+     <Button
+        android:id="@+id/main_btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write To File"
+        android:onClick="onSeletOperate" />
+    <Button
+        android:id="@+id/main_btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read From File"
+        android:onClick="onSeletOperate"/>
+    <Button
+        android:id="@+id/main_btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Cached File"
+        android:onClick="onSeletOperate"/>
+    <Button
+        android:id="@+id/main_btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Cached File"
+        android:onClick="onSeletOperate"/>
+    <Button
+        android:id="@+id/main_btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Temp File"
+        android:onClick="onSeletOperate"/>
+
+</LinearLayout>
